@@ -19,17 +19,31 @@ header{
     background-color: var(--arancione);
     width: 100%;
     height: 70px;
+    margin-bottom: 60px;
+    box-shadow: 2px 2px 5px rgba(30, 30, 30, 0.5);
 }
 .header-container{
+    height: 70px;
     width: 70%;
     margin: auto;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 #logo{
-    
+    height: 40px;
+    width: 160px;
 }
+.li-nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.li-nav strong{
+    color: var(--bianco);
+    margin-right: 5px;
+}
+/* fine header */
 /* main */
 
 .container{
@@ -38,12 +52,15 @@ header{
     margin: auto;
     
 }
+.top{
+    margin-bottom: 50px;
+}
 
 #item{
     height: 630px;
 }
 
-.img-top{
+.img-flex{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -52,12 +69,12 @@ header{
 .heart{
     text-align: center;
     background-color: var(--bianco);
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
-    font-size: 30px;
+    font-size: 40px;
 }
 .sconto{
     background-color: var(--rosso);
@@ -79,6 +96,17 @@ header{
     bottom: 90px;
     color: var(--bianco);
 }
+.sostenibilità-6{
+    text-align: center;
+    background-color: var(--verde);
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 90px;
+    color: var(--bianco);
+
+}
 .relative{
     position: relative;
 }
@@ -90,3 +118,26 @@ header{
     text-decoration: line-through;
 }
 /* fine main */
+
+/* effetto */
+
+.first{
+    display: inline-block;
+}
+
+.second{
+    display: none;
+}
+
+.relative:hover .first{
+    display: none;
+}
+
+.relative:hover .second{
+    display: inline-block;
+}
+
+.heart:hover{
+    color: var(--rosso);
+    cursor: pointer;
+}
