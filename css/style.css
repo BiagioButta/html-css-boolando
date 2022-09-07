@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
 /* colori da utilizzare */
 :root{
     --grigioscuro: #1A1A1A;
@@ -45,9 +49,10 @@ header{
 }
 /* fine header */
 /* main */
-
+main{
+    margin-bottom: 50px;
+}
 .container{
-    border: 1px solid black;
     width: 70%;
     margin: auto;
     
@@ -140,4 +145,35 @@ header{
 .heart:hover{
     color: var(--rosso);
     cursor: pointer;
+}
+
+/* fine effetto */
+
+/* footer  */
+footer{
+    width: 100%;
+    background-color: var(--grigioscuro);
+    height: 100px;
+}
+
+.footer-container{
+    height: 100px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: var(--bianco);
+    align-items: center;
+}
+.left a {
+    color: var(--bianco);
+}
+.left li{
+    list-style: none;
+    margin-right: 5px;
+}
+.flex-list-footer{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
 }
