@@ -1,0 +1,92 @@
+/* utility */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* colori da utilizzare */
+:root{
+    --grigioscuro: #1A1A1A;
+    --arancione: #FF6900;
+    --verde: green;
+    --rosso: red; 
+    --bianco: white;
+}
+
+/* header */
+
+header{
+    background-color: var(--arancione);
+    width: 100%;
+    height: 70px;
+}
+.header-container{
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    
+}
+/* main */
+
+.container{
+    border: 1px solid black;
+    width: 70%;
+    margin: auto;
+    
+}
+
+#item{
+    height: 630px;
+}
+
+.img-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.heart{
+    text-align: center;
+    background-color: var(--bianco);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+}
+.sconto{
+    background-color: var(--rosso);
+    height: 20px;
+    width: 50px;
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+    color: var(--bianco);
+    text-align: center;
+}
+.sostenibilità{
+    text-align: center;
+    background-color: var(--verde);
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left: 55px;
+    bottom: 90px;
+    color: var(--bianco);
+}
+.relative{
+    position: relative;
+}
+.prezzoscontato{
+    color: var(--rosso);
+    margin-right: 5px;
+}
+.prezzo{
+    text-decoration: line-through;
+}
+/* fine main */
