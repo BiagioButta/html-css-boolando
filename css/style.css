@@ -51,6 +51,9 @@ header{
     color: var(--bianco);
     margin-right: 5px;
 }
+.li-nav a{
+    text-decoration: none;
+} 
 /* fine header */
 /* main */
 main{
