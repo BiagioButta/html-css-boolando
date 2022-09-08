@@ -25,6 +25,10 @@ header{
     height: 70px;
     margin-bottom: 60px;
     box-shadow: 2px 2px 5px rgba(30, 30, 30, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 .header-container{
     height: 70px;
@@ -50,7 +54,9 @@ header{
 /* fine header */
 /* main */
 main{
+    margin-top: 150px;
     margin-bottom: 50px;
+    z-index: 1;
 }
 .container{
     width: 70%;
