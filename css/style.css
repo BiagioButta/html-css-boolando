@@ -70,7 +70,7 @@ main{
     margin-bottom: 50px;
 }
 
-#item{
+.item{
     height: 630px;
 }
 
@@ -131,6 +131,16 @@ main{
 .prezzo{
     text-decoration: line-through;
 }
+.fa-solid{
+    color: var(--bianco);
+}
+.icon-top-dx{
+    display: flex;
+    align-items: center;
+}
+.fa-heart{
+    margin: 0 10px;
+}
 /* fine main */
 
 /* effetto */
@@ -185,4 +195,8 @@ footer{
     margin-top: 5px;
     display: flex;
     flex-direction: row;
+}
+.icon-bot-dx{
+    display: flex;
+    justify-content: space-around;
 }
